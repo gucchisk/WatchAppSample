@@ -11,7 +11,7 @@
     "WatchKit Simulator Actions": [
         {
             "title": "App",
-            "identifier": "appButtonAction"
+            "identifier": "app"
         },
         {
             "title": "?",

@@ -15,8 +15,16 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchAppSample_WatchKit_App" customModuleProvider="target">
                     <items>
                         <label alignment="center" text="Good Job!!" id="Ji2-4k-82P"/>
-                        <button width="1" alignment="left" title="👍" id="IIJ-v6-g10"/>
-                        <button width="1" alignment="left" title="👎" id="ah1-E2-sdw"/>
+                        <button width="1" alignment="left" title="👍" id="IIJ-v6-g10">
+                            <connections>
+                                <action selector="onGoodButton" destination="AgC-eL-Hgc" id="geN-sP-KNs"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="👎" id="ah1-E2-sdw">
+                            <connections>
+                                <action selector="onBadButton" destination="AgC-eL-Hgc" id="tNW-zY-nqc"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
