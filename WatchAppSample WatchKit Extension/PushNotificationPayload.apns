@@ -1,18 +1,21 @@
 {
     "aps": {
         "alert": {
-            "body": "Test message",
-            "title": "Optional title",
-            "subtitle": "Optional subtitle"
+            "body": "Are you enjoy?",
+            "title": "Good Job!!"
         },
-        "category": "myCategory",
+        "category": "app",
         "thread-id":"5280"
     },
     
     "WatchKit Simulator Actions": [
         {
-            "title": "First Button",
-            "identifier": "firstButtonAction"
+            "title": "App",
+            "identifier": "appButtonAction"
+        },
+        {
+            "title": "?",
+            "identifier": "nazo"
         }
     ],
     
